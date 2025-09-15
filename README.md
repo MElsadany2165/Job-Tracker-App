@@ -1,68 +1,13 @@
-# Shadcn-UI Template Usage Instructions
+Job Tracker Web App - Project Description
+A modern, responsive job application management system built with React and TypeScript.
 
-## technology stack
+This web application streamlines the job hunting process by providing a centralized dashboard to track applications, manage interview schedules, and visualize job search progress. The app features a clean, intuitive interface with real-time statistics, advanced filtering capabilities, and interactive data charts.
 
-This project is built with:
+Key highlights:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-All shadcn/ui components have been downloaded under `@/components/ui`.
-
-## File Structure
-
-- `index.html` - HTML entry point
-- `vite.config.ts` - Vite configuration file
-- `tailwind.config.js` - Tailwind CSS configuration file
-- `package.json` - NPM dependencies and scripts
-- `src/app.tsx` - Root component of the project
-- `src/main.tsx` - Project entry point
-- `src/index.css` - Existing CSS configuration
-- `src/pages/Index.tsx` - Home page logic
-
-## Components
-
-- All shadcn/ui components are pre-downloaded and available at `@/components/ui`
-
-## Styling
-
-- Add global styles to `src/index.css` or create new CSS files as needed
-- Use Tailwind classes for styling components
-
-## Development
-
-- Import components from `@/components/ui` in your React components
-- Customize the UI by modifying the Tailwind configuration
-
-## Note
-
-- The `@/` path alias points to the `src/` directory
-- In your typescript code, don't re-export types that you're already importing
-
-# Commands
-
-**Install Dependencies**
-
-```shell
-pnpm i
-```
-
-**Add Dependencies**
-
-```shell
-pnpm add some_new_dependency
-
-**Start Preview**
-
-```shell
-pnpm run dev
-```
-
-**To build**
-
-```shell
-pnpm run build
-```
+Smart Organization: Track applications across multiple companies with status updates
+Visual Analytics: Interactive charts showing application success rates and trends
+Responsive Design: Seamless experience across desktop, tablet, and mobile devices
+Modern Tech Stack: Built with React 18, TypeScript, Tailwind CSS, and Shadcn/UI components
+Data Persistence: Local storage ensures your data is saved between sessions
+The application demonstrates modern frontend development practices including component-based architecture, type safety with TypeScript, and performance optimization. It’s designed to solve the real-world problem of job search chaos by providing structure and insights to help users land their dream roles more efficiently.
